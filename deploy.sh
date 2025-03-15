@@ -1,4 +1,5 @@
 #!/bin/bash
+# pip install setuptools wheel twine
 
 echo "🔄 Cleaning previous builds..."
 rm -rf dist build shufflemates.egg-info
