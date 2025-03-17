@@ -19,7 +19,7 @@ pip install shufflemates
 Here's a quick example of how to use Shufflemates:
 
 ```python
-from shufflemates import shuffle_groups
+from shufflemates.main import shuffle_groups, print_shuffle_groups
 members = list(range(17))  # Members 0 to 16
 
 group_size = 3
